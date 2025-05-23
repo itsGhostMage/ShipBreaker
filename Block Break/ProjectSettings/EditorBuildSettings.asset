@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/ShipTestScene.unity
     guid: da1590073d817ce45858a7ad469cd3ee
   m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: b96ce5e0920b4b84792aa209110e4a1d, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: b5fa60817ab9c5144ac2cc6391fc31aa, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 2690aa957993a9041b6fbd145dc8515b, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

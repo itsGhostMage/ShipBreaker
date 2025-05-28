@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2151536953256994814
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3122614826465626033}
+  - component: {fileID: 3357988898270303910}
+  m_Layer: 5
+  m_Name: Spawn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3122614826465626033
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2151536953256994814}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.557272, y: 2.665718, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3357988898270303910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2151536953256994814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b04c79fd6ea686408394304c11ba5cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 5216820447884990827, guid: fea652db3dfe9574390273b609bed6e6, type: 3}
+  - {fileID: 4662804353566681249, guid: ad33f28ae53a1ee4594e2d38d9af16b5, type: 3}
+  - {fileID: 7301028867822261086, guid: 189e2b5d214ebe646aaf419331ea3073, type: 3}
+  - {fileID: 736522471130969865, guid: 17d620c8005ec8741baac728a2636605, type: 3}
+  - {fileID: 8721861125387034149, guid: 1aadc85ed406eae489f6ac260510e36b, type: 3}
+  powerUps:
+  - {fileID: 1532412046402895295, guid: 92572cc309500284f9bc0db36ad0429e, type: 3}
+  - {fileID: 7115271918865711050, guid: adeca644283310840942dd531ffe5580, type: 3}
+  - {fileID: 9025748114504188298, guid: 638de8a99f5a2474795d959ae1011c0d, type: 3}
+  - {fileID: 8983631014795595512, guid: a0e56320089bfc548aef57153541ee45, type: 3}
+  spawnPattern:
+  - spawnTransform: {fileID: 0}
+    possibleTargets:
+    - {x: -20, y: 4, z: 0}
+  - spawnTransform: {fileID: 0}
+    possibleTargets:
+    - {x: -10, y: 10, z: 0}
+  - spawnTransform: {fileID: 0}
+    possibleTargets:
+    - {x: 0, y: 4, z: 0}
+  - spawnTransform: {fileID: 0}
+    possibleTargets:
+    - {x: 10, y: 10, z: 0}
+  - spawnTransform: {fileID: 0}
+    possibleTargets:
+    - {x: 20, y: 4, z: 0}
+  moveSpeed: 0.333
+  rotationSpeed: 120
+  flightHeight: 3
+  activeEnemies: []

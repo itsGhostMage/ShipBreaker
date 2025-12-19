@@ -1,2 +1,5 @@
 # ShipBreaker
-Brick Breaker x Ship Invaders game made solo in Unity.
+Ship Invaders x Breakout, made solo in Unity
+Intended for Android play
+Can be played in windows, UI might be affected
+DEMO - WIP
